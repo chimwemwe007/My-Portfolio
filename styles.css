@@ -76,8 +76,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("images/contact-form-background.png");
-  background-repeat: no-repeat;
+  background-image: url(images/Ellipse3.png), url(images/Rectangle4.png), url(images/Ellipse12.png), url(images/Rectangle5.png), url(images/Ellipse7.png);
+  background-position: 100% 4%, 100% 0.00009%, 40% 3%, 90% 88%, 68% 90%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   height: 750px;
   margin-top: 20px;
   padding: 0 25px 0 25px;
@@ -99,7 +100,7 @@ body {
 }
 
 .form input {
-  width: 320px;
+  width: 280px;
   height: 50px;
   border-radius: 10px;
   padding: 10px;
@@ -107,7 +108,7 @@ body {
 }
 
 .form textarea {
-  width: 320px;
+  width: 280px;
   margin: 6px 0;
   height: 200px;
   border-radius: 10px;
@@ -185,7 +186,10 @@ body {
 .btn:hover {
   background: #6070FF;
   color: #fff;
+}
 
+.btn:active {
+  background: #2230d2;
 }
 
 .card ul {
@@ -258,6 +262,10 @@ body {
   align-self: start;
   width: 90%;
   margin: 10px 0 20px 35px;
+}
+
+.socials li {
+  margin-right: 15px;
 }
 
 .js {
