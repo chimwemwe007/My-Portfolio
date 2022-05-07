@@ -175,7 +175,7 @@ body {
   background: #fff;
   border: 1px solid #396df2;
   border-radius: 10px;
-  color: #FFF
+  color: #fff;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -184,7 +184,7 @@ body {
 }
 
 .btn:hover {
-  background: #6070FF;
+  background: #6070ff;
   color: #fff;
 }
 
@@ -195,6 +195,10 @@ body {
 .card ul {
   display: flex;
   padding: 20px 20px 0;
+}
+
+.socials li {
+  margin-right: 15px;
 }
 
 .card ul li {
@@ -262,10 +266,6 @@ body {
   align-self: start;
   width: 90%;
   margin: 10px 0 20px 35px;
-}
-
-.socials li {
-  margin-right: 15px;
 }
 
 .js {
