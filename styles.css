@@ -174,11 +174,18 @@ body {
   background: #fff;
   border: 1px solid #396df2;
   border-radius: 10px;
-  color: #396df2;
+  color: #FFF
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 500;
+  transition: all 0.6s;
+}
+
+.btn:hover {
+  background: #6070FF;
+  color: #fff;
+
 }
 
 .card ul {
@@ -223,11 +230,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: #344563;
-}
-
-.about .btn,
-.form .btn {
-  margin: 20px 0;
 }
 
 .buttons {
