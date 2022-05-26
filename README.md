@@ -23,7 +23,7 @@ Select the download Zip option from the pull down Menu. The Zip file will contai
 
 👤 **Chimwemwe Mkandawire**
 
-- GitHub: [@githubhandle](https://github.com/Chimwemwe Mkandawire)
+- GitHub: [@chimwemwe007](https://github.com/chimwemwe007)
 
 ## 🤝 Contributing
 
