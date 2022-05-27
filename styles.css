@@ -51,6 +51,11 @@ h1 {
   text-decoration: none;
 }
 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .menu-icon {
   cursor: pointer;
 }
