@@ -349,11 +349,13 @@ a .btn-two {
   font-style: normal;
 }
 
+
 /* CONTACT FORM */
+
 .contact-form-section {
   width: 375px;
   height: 779px;
-  background: #6070FF;
+  background: #6070ff;
   background-image: url(./images/contact-form-shape-mobile.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -376,7 +378,6 @@ a .btn-two {
   display: flex;
   align-items: center;
   text-align: center;
-  display: flex;
   justify-content: center;
 }
 
@@ -386,7 +387,7 @@ a .btn-two {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
 }
 
 .contact-form-section ul {
@@ -406,7 +407,9 @@ a .btn-two {
   gap: 14px;
 }
 
-#name, #email, #msg {
+#name,
+#email,
+#msg {
   outline: none;
 }
 
@@ -420,14 +423,14 @@ textarea {
 
 .contact-form-section .input-data {
   width: 327px;
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 15px 38px 15px 16px;
-  border-radius: 8px;
 }
 
-.contact-form-section #name, #mail {
+.contact-form-section #name,
+#mail {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -437,7 +440,7 @@ textarea {
 }
 
 .contact-form-section input::placeholder {
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .contact-form-section textarea {
@@ -447,6 +450,7 @@ textarea {
   line-height: 24px;
   resize: none;
 }
+
 .contact-form-section textarea::placeholder {
-  color: #B3BAC5;
+  color: #b3bac5;
 }
