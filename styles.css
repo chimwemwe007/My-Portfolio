@@ -269,6 +269,7 @@ a .btn-two {
 .section-about {
   background-color: white;
   border-top-right-radius: 100px;
+  height: 1263px;
 }
 
 .section-about h1 {
@@ -346,4 +347,107 @@ a .btn-two {
   padding-top: 10px;
   padding-left: 15px;
   font-style: normal;
+}
+
+.contact-form-section {
+  width: 375px;
+  height: 779px;
+  background: #6070ff;
+  background-image: url(./images/contact-form-shape-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 143px 11px;
+  border-top-left-radius: 80px;
+  margin-top: -300px;
+  padding: 103px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.contact-form-section #contact-me {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact-form-section #contact-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact-form-section ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.contact-form-section .contact-form {
+  margin-top: 20px;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+#name,
+#email,
+#msg {
+  outline: none;
+}
+
+input,
+textarea {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.contact-form-section .input-data {
+  width: 327px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px 38px 15px 16px;
+}
+
+.contact-form-section #name,
+#mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-form-section input::placeholder {
+  color: #172b4d;
+}
+
+.contact-form-section textarea {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  resize: none;
+}
+
+.contact-form-section textarea::placeholder {
+  color: #b3bac5;
 }
