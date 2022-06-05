@@ -6,11 +6,14 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+
+  /* border: 1px solid pink; */
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #e5e5e5;
+  width: 100%;
 }
 
 .white {
@@ -21,7 +24,7 @@ body {
 }
 
 .text {
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 .salutation {
@@ -58,6 +61,10 @@ body {
   padding-bottom: 100px;
 }
 
+.language1 ul {
+  width: 100%;
+}
+
 .buttons li {
   display: inline-block;
   margin-right: 20px;
@@ -80,7 +87,7 @@ body {
 
 .paragraph1 {
   margin: 10px 0;
-  width: auto;
+  width: 90%;
   margin-left: 0;
 }
 
@@ -91,7 +98,8 @@ body {
   width: 100%;
   background-color: #fff;
   margin-bottom: 50px;
-  padding-top: 50px;
+  padding: auto;
+  padding-left: 10px;
   border: 1px solid white;
   border-bottom-left-radius: 110px;
 }
@@ -104,18 +112,31 @@ body {
   margin-bottom: 58px;
 }
 
-.project-card {
+.project-card,
+.project-cardr {
   display: flex;
   flex-direction: column;
   background: #fff;
   padding: 16px;
-  margin: 16px;
+  margin: 16px auto;
   border-radius: 16px;
   width: 90%;
 }
 
+.project-card1 {
+  width: 100%;
+}
+
+.project-card1 img {
+  width: 100%;
+}
+
 .project-card img {
   margin-left: 0;
+}
+
+.headline-text {
+  padding-left: 20px;
 }
 
 .head {
@@ -148,16 +169,20 @@ body {
   color: #4472e7;
   border-radius: 10px;
   font-weight: 500;
+  font-size: 15px;
   font-family: poppins, sans-serif;
   display: inline-block;
   margin-left: 10px;
+
+  /* width: 30%; */
 }
 
 .circle {
   display: inline-block;
   flex-direction: row;
   align-items: center;
-  padding: 1px 5px;
+
+  /* padding: 1px 5px; */
   row-gap: 12px;
 }
 
@@ -207,6 +232,7 @@ button {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   background-color: #fff;
+  display: flex;
 }
 
 .btn-one {
@@ -295,13 +321,17 @@ a .btn-two {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   color: #344563;
+  margin: 30px;
 }
 
 .lang {
   margin: 30px;
-  margin-top: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+
+  /* margin-top: 50px; */
+
+  /* padding-top: 15px; */
+
+  /* padding-bottom: 15px; */
   padding-right: 40px;
   display: flex;
   justify-content: space-between;
@@ -313,10 +343,13 @@ a .btn-two {
 }
 
 .lang-2 {
-  margin: 20px;
-  padding-top: 6px;
-  padding-bottom: 25px;
-  padding-right: 40px;
+  margin: 0 20px;
+
+  /* padding-top: 6px; */
+
+  /* padding-bottom: 25px; */
+
+  /* padding-right: 40px; */
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(202, 200, 200);
@@ -330,25 +363,30 @@ a .btn-two {
 
 .language {
   display: flex;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 10px;
   background-color: #f6f6f9;
   border-radius: 8px;
   padding: 10px;
 }
 
+/*
+.lang-img {
+    width: 20px;
+} */
+
 .lang-text {
   font-family: Poppins, sans-serif;
   color: #344563;
   padding-top: 10px;
-  padding-left: 15px;
+
+  /* padding-left: 15px; */
   font-style: normal;
+  margin-left: 0;
+  font-size: 15px;
 }
 
 .contact-form-section {
   width: 100%;
-  height: 779px;
+  height: auto;
   background: #6070ff;
   background-image: url(./images/contact-form-shape-mobile.png);
   background-repeat: no-repeat;
@@ -360,6 +398,11 @@ a .btn-two {
   flex-direction: column;
   gap: 15px;
   align-items: center;
+  padding-bottom: 20px;
+}
+
+form {
+  padding-bottom: 30px;
 }
 
 .contact-form-section #contact-me {
@@ -453,8 +496,24 @@ textarea {
   display: none;
 }
 
+.anot {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+
+  /* padding-left: 10px; */
+}
+
+.anot ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
 .anot h3 {
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -475,12 +534,24 @@ textarea {
     display: flex;
   }
 
+  .desk-menu ul li {
+    color: #344563;
+    margin-left: 10px;
+  }
+
   .bars {
     display: none;
   }
 
-  .desk-menu ul li {
-    margin-left: 10px;
+  .lang-img {
+    width: 20px;
+  }
+
+  .first-section {
+    padding: 17%;
+    background-image: url(./images/Header\ bg@2x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   .white {
@@ -490,8 +561,10 @@ textarea {
   .project-card {
     flex-direction: row;
     gap: 20px;
+  }
 
-    /* height: 800px; */
+  .project-cardr {
+    flex-direction: row-reverse;
   }
 
   .project-card1 img {
@@ -499,10 +572,6 @@ textarea {
     width: 100%;
   }
 
-  /* .project-card1, .project-card2 {
-        display: flex;
-        flex-direction: column;
-    } */
   .project-card1 {
     width: 50%;
   }
@@ -518,10 +587,44 @@ textarea {
   }
 
   .about-grid {
-    width: 40%;
+    width: 35%;
   }
 
   .anot {
-    width: 60%;
+    width: 65%;
+  }
+
+  .language {
+    display: flex;
+    background-color: #f6f6f9;
+    border-radius: 8px;
+
+    /* padding: 10px; */
+    width: fit-content;
+    flex-direction: column;
+  }
+
+  .lang-font ul {
+    display: flex;
+    margin-left: 0;
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .text .buttons {
+    display: flex;
+    gap: 3px;
+  }
+
+  .contact-form-section {
+    background-image: url(./images/contact\ form\ background\ shapes@2x.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+  }
+
+  .contact-form-section .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
