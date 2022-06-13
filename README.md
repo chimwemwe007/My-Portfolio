@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo (if available)
 Live Demo Link:
-https://github.com/chimwemwe007/My-Portfolio--1.io
+ https://chimwemwe007.github.io/My-Portfolio--1/
 
 ## Getting Started
 
