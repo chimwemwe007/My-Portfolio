@@ -12,15 +12,9 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
   background-color: #e5e5e5;
   width: 100%;
-}
-
-.white {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  padding-top: 24px;
 }
 
 .text {
@@ -41,20 +35,6 @@ body {
   font-weight: 500;
   color: #7f8cff;
   margin-top: 10px;
-}
-
-.bars {
-  padding-right: 22px;
-}
-
-.logo {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  padding-left: 22px;
-  line-height: 20px;
-  color: #6070ff;
-  background-color: #fff;
 }
 
 .buttons {
@@ -79,10 +59,6 @@ body {
 
 .menu-icon {
   cursor: pointer;
-}
-
-.nav-bar {
-  color: #7f8cff;
 }
 
 .paragraph1 {
@@ -529,18 +505,37 @@ textarea {
     flex-direction: column;
   }
 
-  .desk-menu,
-  .desk-menu ul {
+  header {
+    background-color: white;
+  }  
+
+  .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .container li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .logoforJS h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    color: #6070ff;
   }
 
-  .desk-menu ul li {
+  .desktop-nav {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
     color: #344563;
-    margin-left: 10px;
-  }
-
-  .bars {
-    display: none;
   }
 
   .lang-img {
