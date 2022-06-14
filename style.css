@@ -6,8 +6,6 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-
-  /* border: 1px solid pink; */
 }
 
 body {
@@ -16,40 +14,6 @@ body {
   background-color: #e5e5e5;
   width: 100%;
 }
-
-  .container {
-  display: flex;;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.nav-toggle {
-  position: absolute;
-  top: 8px;
-  right: 36px;
-
-}
-
-.desktop-nav {
-  width: 100%;
-}
-
- .desktop-nav .nav-items{
-  display: block;
-  text-align: left; 
-  padding: 0.2rem 0;
-  margin-left: 12px;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 44px;
-}
-
-.text {
-  /* padding: 30px; */
-}
-
-
-
 
 .salutation {
   font-size: 40px;
@@ -179,16 +143,12 @@ body {
   font-family: poppins, sans-serif;
   display: inline-block;
   margin-left: 10px;
-
-  /* width: 30%; */
 }
 
 .circle {
   display: inline-block;
   flex-direction: row;
   align-items: center;
-
-  /* padding: 1px 5px; */
   row-gap: 12px;
 }
 
@@ -297,9 +257,6 @@ a .btn-two {
 
 .section-about {
   background-color: white;
-  border-top-right-radius: 100px;
-
-  /* height: 1263px; */
 }
 
 .section-about h1 {
@@ -332,12 +289,6 @@ a .btn-two {
 
 .lang {
   margin: 30px;
-
-  /* margin-top: 50px; */
-
-  /* padding-top: 15px; */
-
-  /* padding-bottom: 15px; */
   padding-right: 40px;
   display: flex;
   justify-content: space-between;
@@ -350,12 +301,6 @@ a .btn-two {
 
 .lang-2 {
   margin: 0 20px;
-
-  /* padding-top: 6px; */
-
-  /* padding-bottom: 25px; */
-
-  /* padding-right: 40px; */
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(202, 200, 200);
@@ -374,17 +319,10 @@ a .btn-two {
   padding: 10px;
 }
 
-/*
-.lang-img {
-    width: 20px;
-} */
-
 .lang-text {
   font-family: Poppins, sans-serif;
   color: #344563;
   padding-top: 10px;
-
-  /* padding-left: 15px; */
   font-style: normal;
   margin-left: 0;
   font-size: 15px;
@@ -508,8 +446,6 @@ textarea {
   gap: 10px;
   margin: 0;
   padding: 0;
-
-  /* padding-left: 10px; */
 }
 
 .anot ul {
@@ -520,6 +456,50 @@ textarea {
 
 .anot h3 {
   margin-left: 30px;
+}
+
+@media only screen and (max-width: 768px){
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .container .nav-items {
+    display: block;
+    padding: 10px;
+  }
+
+  .logoforJS h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    color: #6070ff;
+  }
+
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+  }
+
+  .desktop-nav {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -548,7 +528,7 @@ textarea {
     padding: 10px;
   }
   
-  .container li {
+  .container .nav-items {
     display: inline-block;
     padding: 10px;
   }
@@ -559,6 +539,10 @@ textarea {
     font-weight: 700;
     line-height: 20px;
     color: #6070ff;
+  }
+
+  .nav-toggle {
+    display: none;
   }
 
   .desktop-nav {
