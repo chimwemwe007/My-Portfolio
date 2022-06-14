@@ -458,8 +458,7 @@ textarea {
   margin-left: 30px;
 }
 
-@media only screen and (max-width: 768px){
-
+@media only screen and (max-width: 768px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -500,6 +499,10 @@ textarea {
     overflow: hidden;
   }
 
+  .open {
+    height: 100vh;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -517,7 +520,7 @@ textarea {
 
   header {
     background-color: white;
-  }  
+  }
 
   .container {
     display: flex;
@@ -527,12 +530,12 @@ textarea {
     margin: 0 auto;
     padding: 10px;
   }
-  
+
   .container .nav-items {
     display: inline-block;
     padding: 10px;
   }
-  
+
   .logoforJS h2 {
     font-size: 18px;
     font-style: normal;
@@ -549,7 +552,6 @@ textarea {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #344563;
   }
 
   .lang-img {
