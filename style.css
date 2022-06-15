@@ -493,6 +493,10 @@ textarea {
 
 
 @media only screen and (max-width: 768px) {
+  .menu-animation {
+    background: white;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
