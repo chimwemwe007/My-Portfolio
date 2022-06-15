@@ -458,6 +458,40 @@ textarea {
   margin-left: 30px;
 }
 
+.links {
+  display: none;
+  background-color: rgba(96,112,255, 0.9);
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 50px 0;
+}
+
+.links li {
+
+  margin-top: 25px;
+}
+.links li a {
+  color: #fff;
+  font-size: 32px;
+}
+
+.close {
+  position: absolute;
+  top: 0;  
+  left: 90%;
+
+}
+
+.d-block {
+  display: block;
+}
+
+
 @media only screen and (max-width: 768px) {
   .container {
     display: flex;
@@ -496,7 +530,7 @@ textarea {
     color: #344563;
     height: 0;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .open {
