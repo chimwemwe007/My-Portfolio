@@ -462,7 +462,7 @@ textarea {
   display: none;
   background-color: rgba(96,112,255, 0.9);
   color: #fff;
-  height: 100%;
+  height: 146vh;
   width: 100%;
   position: absolute;
   top: 0;
@@ -482,8 +482,8 @@ textarea {
 
 .close {
   position: absolute;
-  top: 0;  
-  left: 90%;
+  top: -15px;  
+  left: 93%;
 
 }
 
