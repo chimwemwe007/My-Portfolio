@@ -12,5 +12,5 @@ close.addEventListener('click', () => {
 });
 
 closeItems.addEventListener('click', () => {
-    ul.classList.remove('d-block');    
+  ul.classList.remove('d-block');
 });
