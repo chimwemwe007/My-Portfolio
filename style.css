@@ -215,6 +215,11 @@ button {
   margin: 0;
 }
 
+.links li a {
+  color: #fff;
+  font-size: 32px;
+}
+
 .btn-one a:focus {
   background-color: #2230d2;
   color: #fff;
@@ -460,7 +465,7 @@ textarea {
 
 .links {
   display: none;
-  background-color: rgba(96,112,255, 0.9);
+  background-color: rgba(96, 112, 255, 0.9);
   color: #fff;
   height: 146vh;
   width: 100%;
@@ -472,25 +477,18 @@ textarea {
 }
 
 .links li {
-
   margin-top: 25px;
-}
-.links li a {
-  color: #fff;
-  font-size: 32px;
 }
 
 .close {
   position: absolute;
-  top: -15px;  
+  top: -15px;
   left: 93%;
-
 }
 
 .d-block {
   display: block;
 }
-
 
 @media only screen and (max-width: 768px) {
   .menu-animation {
@@ -534,13 +532,13 @@ textarea {
     color: #344563;
     height: 0;
     width: 100%;
+
     /* overflow: hidden; */
   }
 
   .open {
     height: 100vh;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
