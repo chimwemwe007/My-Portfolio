@@ -10,21 +10,30 @@
 </head>
 
 <body>
-    <header class="white">
-        <a class="logo" href="#">My logo</a>
-        <nav class="nav-bar">
-            <div class="bars"><img src="images/menu.png" alt="menu navbar" /></div>
-            <div class="desk-menu">
-                <ul>
-                    <li>Portfolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul></div>
-        </nav>
+    <header class="menu-animation">
+        <div class="container">
+            <div class="logoforJS">
+               <h2>My logo</h2>
+            </div> 
+
+            <div class="nav-toggle" id="navToggle">
+                <img src="./images/menu.png" alt="hamburger-menu"/>
+            </div>        
+           
+            <nav class="desktop-nav">            
+                <ul class="links">
+                    <li class="close">X</li>                    
+                    <li class="nav-items"><a href="#porto">Portfolio</a></li>
+                    <li class="nav-items"><a href="#aboutMe">About</a></li>
+                    <li class="nav-items"><a href="#contact-me">Contact</a></li>
+                </ul>
+            </nav>           
+        </div>
     </header>
+
     <section class="first-section">
-        <div class="text">
-            <h1 class="salutation">I'm Chimwemwe, Glad to see you!</h1>
+        <div class="text" >
+            <h1 class="salutation"  >I'm Chimwemwe, Glad to see you!</h1>
             <p class="paragraph1">
                 I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
             </p>
@@ -50,7 +59,7 @@
             </ul>
         </div>
     </section>
-    <section class="work-section">
+    <section class="work-section" id="porto">
         <div class="project-card">
             <div class="project-card1">
             <img src="images/photo1.png" alt="First Card" />
@@ -169,12 +178,12 @@
             <button type="button" class="btn-one">See project</button>
         </div></div>
     </section>
-    <section class="section-about">
+    <section class="section-about" id="aboutMe">
         <div class="about-grid">
             <div class="text">
                 <div class="headline-text">
                     <h2>About Myself</h2>
-                    <p class="paragraph1">
+                    <p class="paragraph1" id="about">
                         Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
                     </p>
                     <h3 class="lets-connect">LET'S CONNECT</h3>
@@ -239,8 +248,8 @@
             </li></ul>
             </section>
                 <footer>
-                    <section class="contact-form-section">
-                        <h1 id="contact-me">Contact me</h1>
+                    <section class="contact-form-section" id="contact-me">
+                        <h1>Contact me</h1>
                         <p id="contact-text">
                             If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it.
                         </p>
@@ -260,6 +269,7 @@
                         </form>
                     </section>
                 </footer>
+<script src="./scripts/main.js"></script>
 </body>
 
 </html>

@@ -1,30 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-
-  /* border: 1px solid pink; */
+  /* outline: solid red 1px; */
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
   background-color: #e5e5e5;
   width: 100%;
-}
-
-.white {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  padding-top: 24px;
-}
-
-.text {
-  /* padding: 30px; */
 }
 
 .salutation {
@@ -41,20 +34,6 @@ body {
   font-weight: 500;
   color: #7f8cff;
   margin-top: 10px;
-}
-
-.bars {
-  padding-right: 22px;
-}
-
-.logo {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  padding-left: 22px;
-  line-height: 20px;
-  color: #6070ff;
-  background-color: #fff;
 }
 
 .buttons {
@@ -79,10 +58,6 @@ body {
 
 .menu-icon {
   cursor: pointer;
-}
-
-.nav-bar {
-  color: #7f8cff;
 }
 
 .paragraph1 {
@@ -173,16 +148,12 @@ body {
   font-family: poppins, sans-serif;
   display: inline-block;
   margin-left: 10px;
-
-  /* width: 30%; */
 }
 
 .circle {
   display: inline-block;
   flex-direction: row;
   align-items: center;
-
-  /* padding: 1px 5px; */
   row-gap: 12px;
 }
 
@@ -249,6 +220,11 @@ button {
   margin: 0;
 }
 
+.links li a {
+  color: #fff;
+  font-size: 32px;
+}
+
 .btn-one a:focus {
   background-color: #2230d2;
   color: #fff;
@@ -291,9 +267,6 @@ a .btn-two {
 
 .section-about {
   background-color: white;
-  border-top-right-radius: 100px;
-
-  /* height: 1263px; */
 }
 
 .section-about h1 {
@@ -326,12 +299,6 @@ a .btn-two {
 
 .lang {
   margin: 30px;
-
-  /* margin-top: 50px; */
-
-  /* padding-top: 15px; */
-
-  /* padding-bottom: 15px; */
   padding-right: 40px;
   display: flex;
   justify-content: space-between;
@@ -344,12 +311,6 @@ a .btn-two {
 
 .lang-2 {
   margin: 0 20px;
-
-  /* padding-top: 6px; */
-
-  /* padding-bottom: 25px; */
-
-  /* padding-right: 40px; */
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(202, 200, 200);
@@ -368,17 +329,10 @@ a .btn-two {
   padding: 10px;
 }
 
-/*
-.lang-img {
-    width: 20px;
-} */
-
 .lang-text {
   font-family: Poppins, sans-serif;
   color: #344563;
   padding-top: 10px;
-
-  /* padding-left: 15px; */
   font-style: normal;
   margin-left: 0;
   font-size: 15px;
@@ -502,8 +456,6 @@ textarea {
   gap: 10px;
   margin: 0;
   padding: 0;
-
-  /* padding-left: 10px; */
 }
 
 .anot ul {
@@ -514,6 +466,84 @@ textarea {
 
 .anot h3 {
   margin-left: 30px;
+}
+
+.links {
+  display: none;
+  background-color: rgba(96, 112, 255, 0.9);
+  color: #fff;
+  height: 146vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 50px 0;
+}
+
+.links li {
+  margin-top: 25px;
+}
+
+.close {
+  position: absolute;
+  top: -15px;
+  left: 93%;
+}
+
+.d-block {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-animation {
+    background: white;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .container .nav-items {
+    display: block;
+    padding: 10px;
+  }
+
+
+  .logoforJS h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    color: #6070ff;
+  }
+
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+  }
+
+  .desktop-nav {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    height: 0;
+    width: 100%;
+    /* overflow: hidden; */
+  }
+
+  .open {
+    height: 100vh;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -529,18 +559,41 @@ textarea {
     flex-direction: column;
   }
 
-  .desk-menu,
-  .desk-menu ul {
+  header {
+    background-color: white;
+  }
+
+  .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 10px;
   }
 
-  .desk-menu ul li {
-    color: #344563;
-    margin-left: 10px;
+  .container .nav-items {
+    display: inline-block;
+    padding: 10px;
+    display: inline-block;
   }
 
-  .bars {
+  .logoforJS h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    color: #6070ff;
+  }
+
+  .nav-toggle {
     display: none;
+  }
+
+  .desktop-nav {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
   }
 
   .lang-img {
@@ -626,5 +679,26 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+
+  .links li a {
+    color:#2230d2;
+    font-size: 15px;
+  }
+
+  .links {
+    display: flex;
+    background: transparent;
+  
+    position: absolute;
+    top: -12%;
+    width: auto;
+    left: 69%;
+    z-index: 1;
+  }
+  
+  .links li {
+    margin-top: 25px;
   }
 }

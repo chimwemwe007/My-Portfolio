@@ -10,8 +10,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Html
-- css
+- HTML
+- CSS
+- JavsScript
 
 ## Live Demo (if available)
 Live Demo Link:
@@ -35,8 +36,11 @@ Here is my repository link:  https://github.com/chimwemwe007/My-Portfolio.io and
 - Twitter: [@CHXMZMK](https://twitter.com/CHXMZMK) 
 - To visit my website please click the following link Portfolio: application deploy
 
-)
+👤 **Kiyong Bohbo**
 
+- GitHub: [krisbobo](https://github.com/krisbobo)
+- Twitter: [ChrisboboSys](https://twitter.com/ChrisboboSys)
+- LinkedIn: [kiyong-christian](https://linkedin.com/in/kiyong-christian)
 
 ## 🤝 Contributing
 
