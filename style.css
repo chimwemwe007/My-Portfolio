@@ -702,3 +702,18 @@ textarea {
     margin-top: 25px;
   }
 }
+
+.contact-form .error {
+  display: none;
+}
+
+/*CONTACT FORM*/
+.contact-form .active {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: rgb(241, 233, 233);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
