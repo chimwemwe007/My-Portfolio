@@ -126,7 +126,7 @@ function displayPopup(card) {
 
 function getItemId(id) {
   cards.find((card) => {
-    if (card.id === id) {
+    if (Number(card.id) === Number(id)) {
       displayPopup(card);
     }
     return undefined;
