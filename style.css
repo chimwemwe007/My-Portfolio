@@ -522,6 +522,8 @@ textarea {
 
 
 
+
+
 @media only screen and (max-width: 768px) {
   .menu-animation {
     background: white;
@@ -728,5 +730,23 @@ textarea {
   
   .links li {
     margin-top: 25px;
+  }
+
+  .project-card2 {
+    width: 100%;
+  }
+  .pop-text {
+    display: flex;
+    gap: 20px;
+  }
+
+  .text-pop {
+    flex-basis: 65%;
+    text-align: justify;
+  }
+
+  .pop-up-card{
+    display: flex;
+    flex-direction: column;
   }
 }
