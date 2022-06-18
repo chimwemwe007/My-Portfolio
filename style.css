@@ -491,7 +491,17 @@ textarea {
   left: 93%;
 }
 
-.d-block {
+
+
+.emailError {
+  display: none;
+  background-color: rgb(240, 159, 159);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.d-flex {
   display: block;
 }
 
@@ -707,13 +717,12 @@ textarea {
   display: none;
 }
 
-/*CONTACT FORM*/
-.contact-form .active {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  color: rgb(241, 233, 233);
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+/*CONTACT FORM VALIDATION*/
+
+span {
+  font-family: Poppins, sans-serif;
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
 }
+
