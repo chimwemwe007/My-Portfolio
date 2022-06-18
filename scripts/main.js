@@ -129,6 +129,7 @@ function getItemId(id) {
     if (card.id === id) {
       displayPopup(card);
     }
+    return undefined;
   });
 }
 
