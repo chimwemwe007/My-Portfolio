@@ -502,6 +502,31 @@ textarea {
   display: block;
 }
 
+.pop-btns {
+  display: flex;
+  gap: 5px;
+}
+
+.close-popup {
+  position: absolute;
+  left: 82%;
+  font-size: 15px;
+}
+
+.bg {
+  display: none;
+  background: #c1c7d0;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  overflow-y: scroll;
+}
+
+.d-popup {
+  display: block;
+}
+
 @media only screen and (max-width: 768px) {
   .menu-animation {
     background: white;
@@ -632,7 +657,8 @@ textarea {
   }
 
   .project-card1 {
-    width: 50%;
+    width: 100%;
+    padding-bottom: 20px;
   }
 
   .project-card2 {
@@ -704,6 +730,25 @@ textarea {
 
   .links li {
     margin-top: 25px;
+  }
+
+  .project-card2 {
+    width: 100%;
+  }
+
+  .pop-text {
+    display: flex;
+    gap: 20px;
+  }
+
+  .text-pop {
+    flex-basis: 65%;
+    text-align: justify;
+  }
+
+  .pop-up-card {
+    display: flex;
+    flex-direction: column;
   }
 }
 
