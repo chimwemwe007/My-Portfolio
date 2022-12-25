@@ -10,7 +10,6 @@ html {
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  /* outline: solid red 1px; */
 }
 
 body {
@@ -491,7 +490,15 @@ textarea {
   left: 93%;
 }
 
-.d-block {
+.emailError {
+  display: none;
+  background-color: rgb(240, 159, 159);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.d-flex {
   display: block;
 }
 
@@ -515,7 +522,6 @@ textarea {
     padding: 10px;
   }
 
-
   .logoforJS h2 {
     font-size: 18px;
     font-style: normal;
@@ -538,6 +544,7 @@ textarea {
     color: #344563;
     height: 0;
     width: 100%;
+
     /* overflow: hidden; */
   }
 
@@ -575,7 +582,6 @@ textarea {
   .container .nav-items {
     display: inline-block;
     padding: 10px;
-    display: inline-block;
   }
 
   .logoforJS h2 {
@@ -681,24 +687,35 @@ textarea {
     align-items: center;
   }
 
-
   .links li a {
-    color:#2230d2;
+    color: #2230d2;
     font-size: 15px;
   }
 
   .links {
     display: flex;
     background: transparent;
-  
     position: absolute;
     top: -12%;
     width: auto;
     left: 69%;
     z-index: 1;
   }
-  
+
   .links li {
     margin-top: 25px;
   }
+}
+
+.contact-form .error {
+  display: none;
+}
+
+/* CONTACT FORM VALIDATION */
+
+span {
+  font-family: Poppins, sans-serif;
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
 }
