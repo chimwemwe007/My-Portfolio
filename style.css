@@ -10,8 +10,6 @@ html {
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-
-  /* outline: solid red 1px; */
 }
 
 body {
@@ -492,7 +490,15 @@ textarea {
   left: 93%;
 }
 
-.d-block {
+.emailError {
+  display: none;
+  background-color: rgb(240, 159, 159);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.d-flex {
   display: block;
 }
 
@@ -601,7 +607,6 @@ textarea {
   .container .nav-items {
     display: inline-block;
     padding: 10px;
-    display: inline-block;
   }
 
   .logoforJS h2 {
@@ -745,4 +750,17 @@ textarea {
     display: flex;
     flex-direction: column;
   }
+}
+
+.contact-form .error {
+  display: none;
+}
+
+/* CONTACT FORM VALIDATION */
+
+span {
+  font-family: Poppins, sans-serif;
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
 }
